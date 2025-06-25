@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayOra🔥 - Aplikacione</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #ff5500;
+    }
+    .app-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .app-card {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .app-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    .app-card h3 {
+      margin: 10px 0 5px;
+    }
+    .app-card p {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .app-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #0088cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .app-card a:hover {
+      background-color: #005f99;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📱 PlayOra🔥 - Aplikacione</h1>
+
+  <div class="app-container">
+    <!-- App 1 -->
+    <div class="app-card">
+      <img src="https://via.placeholder.com/100" alt="App Logo">
+      <h3>Emri i Aplikacionit</h3>
+      <p>Përshkrim i shkurtër për këtë aplikacion.</p>
+      <a href="https://t.me/kanaliyt" target="_blank">Hap në Telegram</a>
+    </div>
+
+    <!-- App 2 -->
+    <div class="app-card">
+      <img src="https://via.placeholder.com/100" alt="App Logo">
+      <h3>Emri i Dytë</h3>
+      <p>Kjo është një tjetër aplikacion që mund të shkarkohet nga Telegram.</p>
+      <a href="https://t.me/postimiyt" target="_blank">Hap në Telegram</a>
+    </div>
+  </div>
+
+</body>
+</html>
